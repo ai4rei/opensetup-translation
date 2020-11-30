@@ -1,0 +1,23 @@
+﻿// -----------------------------------------------------------------
+// RagnarokOnline OpenSetup
+// (c) 2010+ Ai4rei/AN
+// See doc/license.txt for details.
+//
+// -----------------------------------------------------------------
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+
+#include "es_es.inc.rc"
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+
+#include "es_es.inc.rc"
+
+// Latin America
+//LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_CHILE
+//#include "es_es.inc.rc"
+
+// Everyone else
+// MSDN: "[Your application] should use SUBLANG_NEUTRAL for resources that are the same for all sublanguages of a primary language"
+//LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+//#include "es_es.inc.rc"
