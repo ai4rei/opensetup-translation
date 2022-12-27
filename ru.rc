@@ -72,6 +72,15 @@ BEGIN
     IDCHECKBOX_QUAKE,               "Включение и отключение эффекта тряски экрана.\n\nВ игре: /quake"
     IDCHECKBOX_MABLE,               "Включение и отключение эффекта Spirit Marble.\n\nВ игре: /mable"
     IDCHECKBOX_ZOOM,                "Включение и отключение расширения представления об игре.\n\nВ игре: /zoom"
+    IDCHECKBOX_MOUSEFREEDOM,        "Allow mouse cursor to freely leave and enter RO window.\nNote: This setting predates and has the same effect as official Mouse Exclusive setting."
+    IDCHECKBOX_REMAPMOUSEBUTTONS,   "Remap 3-5'th mouse buttons, requires turned on MouseFreedom."
+    IDCHECKBOX_REMAPALTF4,          "TODO:"
+    IDCHECKBOX_AUTOFREECPU,         "TODO:"
+    IDCHECKBOX_WINDOWONTOP,         "TODO:"
+    IDCHECKBOX_WINDOWLOCK,          "TODO:"
+    IDCOMBOBOX_CODEPAGE,            "Overrides the codepage used by the client.\n\nNote: Don't change this unless you know what you are doing."
+    IDDRAGSIZE,                     "Selects the resolution visually by dragging a window to desired size."
+    IDVIDEOTEST,                    "Tests whether currently selected (possibly unsaved) graphics settings function properly or not."
     // list-boxes
     TEXT_NUMSAMPLETYPE_48CHANNEL,   "48 каналов"
     TEXT_NUMSAMPLETYPE_32CHANNEL,   "32 канала"
@@ -107,7 +116,7 @@ BEGIN
     TEXT_DLG_TRILINEAR_FILTER,      "Трилинейная Фильтрация"
     TEXT_DLG_SPRITE_QUALITY,        "Качество Спрайтов:"
     TEXT_DLG_TEXTURE_QUALITY,       "Качество текстур:"
-    TEXT_DLG_TROUBLESHOOTING,       "Решение проблем:"
+    TEXT_DLG_TROUBLESHOOTING,       "Решение проблем"
     TEXT_DLG_VOODOO3_CARD,          "Видеокарта VooDoo3"
     TEXT_DLG_RESTRICT_MOUSE,        "Ограничить мышь окном"
     TEXT_DLG_SOUND_SETTINGS,        "Настройки Звука"
@@ -149,7 +158,7 @@ BEGIN
     TEXT_DLG_LOCK_WINDOW,           "Закрепить положение окна"
     TEXT_DLG_CODEPAGE,              "Кодировка:"
     TEXT_DLG_ROEXT_DETECT_NOTE,     "Внимание: Эта вкладка появляется только при обнаружении ROExt."
-    TEXT_DLG_ABOUT_OPENSETUP,       "О программе RagnarokOnline OpenSetup"
+    TEXT_DLG_ABOUT_OPENSETUP,       "О программе %s"
     TEXT_DLG_LIST_CP_DEFAULT,       "(по умолчанию)"
     TEXT_DLG_LIST_CP_UNKNOWN,       "%d  (неизвестно)"
     TEXT_DLG_COMMANDS,              "Комманды"
@@ -174,6 +183,8 @@ BEGIN
     TEXT_DLG_ENGINE_LUA,            "Lua"
     TEXT_DLG_CMD_MABLE,             "/mable"
     TEXT_DLG_CMD_ZOOM,              "/zoom"
+    TEXT_DLG_ABOUT_TELEMETRY,       "Телеметрия"
+    TEXT_DLG_VIDEOTEST,             "Тестовый настройки"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - изменить размер окна до нужного"
     // error messages
@@ -195,6 +206,10 @@ BEGIN
     TEXT_ERROR_IPC_FAILED,          "Ошибка межпроцессного взаимодействия."
     TEXT_ERROR_UNKNOWN_ENGINE,      "Выбранный механизм настроек не существует (code=0x%08x)."
     TEXT_ERROR_INSANE_ENGINE,       "Выбранный механизм настроек определен таким образом, что Ваше состояние установки будет мешать правильной загрузке и сохранению настроек.\n\nОткройте opensetup.log для получения подробностей."
+    TEXT_ERROR_TESTGX_FAILED,       "Failed to start graphics test."
     // info/question messages
     TEXT_MSG_RO_ALREADY_RUNNING,    "Обнаружен запущенный клиент RagnarokOnline, изменения в настройках, выполненние с помощью этого приложения, могут быть перезаписанные клиентом.\n\nВы все равно хотите продолжить?"
+    TEXT_MSG_TESTGX_INTRO,          "This will test the current graphics settings. Before you continue, please save your work."
+    TEXT_MSG_TESTGX_DESCRIPTION,    "In the following, you should see a graphics window (or full screen) simulation of the RO client. You can close it with the ESC key, or wait for 15 seconds if the computer stops reacting."
+    TEXT_MSG_TESTGX_NOSELECTION,    "Not enough information to run test."
 END

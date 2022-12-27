@@ -69,6 +69,15 @@ BEGIN
     IDCHECKBOX_QUAKE,               "Turns screen shaking effect on and off.\n\nUso en el juego: /quake"
     IDCHECKBOX_MABLE,               "Turns the Spirit Marble skill effect on and off.\n\nUso en el juego: /mable"
     IDCHECKBOX_ZOOM,                "Turns extended game view (zoom out) on and off.\n\nUso en el juego: /zoom"
+    IDCHECKBOX_MOUSEFREEDOM,        "Allow mouse cursor to freely leave and enter RO window.\nNote: This setting predates and has the same effect as official Mouse Exclusive setting."
+    IDCHECKBOX_REMAPMOUSEBUTTONS,   "Remap 3-5'th mouse buttons, requires turned on MouseFreedom."
+    IDCHECKBOX_REMAPALTF4,          "TODO:"
+    IDCHECKBOX_AUTOFREECPU,         "TODO:"
+    IDCHECKBOX_WINDOWONTOP,         "TODO:"
+    IDCHECKBOX_WINDOWLOCK,          "TODO:"
+    IDCOMBOBOX_CODEPAGE,            "Overrides the codepage used by the client.\n\nNote: Don't change this unless you know what you are doing."
+    IDDRAGSIZE,                     "Selects the resolution visually by dragging a window to desired size."
+    IDVIDEOTEST,                    "Tests whether currently selected (possibly unsaved) graphics settings function properly or not."
     // list-boxes
     TEXT_NUMSAMPLETYPE_48CHANNEL,   "48 canales"
     TEXT_NUMSAMPLETYPE_32CHANNEL,   "32 canales"
@@ -104,7 +113,7 @@ BEGIN
     TEXT_DLG_TRILINEAR_FILTER,      "Filtrado trilineal"
     TEXT_DLG_SPRITE_QUALITY,        "Calidad de sprites:"
     TEXT_DLG_TEXTURE_QUALITY,       "Calidad de texturas:"
-    TEXT_DLG_TROUBLESHOOTING,       "Resolución de problemas:"
+    TEXT_DLG_TROUBLESHOOTING,       "Resolución de problemas"
     TEXT_DLG_VOODOO3_CARD,          "Tarjeta gráfica VooDoo3"
     TEXT_DLG_RESTRICT_MOUSE,        "Restringir movimiento del ratón a la ventana"
     TEXT_DLG_SOUND_SETTINGS,        "Ajustes de Sonido"
@@ -146,7 +155,7 @@ BEGIN
     TEXT_DLG_LOCK_WINDOW,           "Bloquear la ventana"
     TEXT_DLG_CODEPAGE,              "Página de códigos (Codepage):"
     TEXT_DLG_ROEXT_DETECT_NOTE,     "Nota: Esta sección aparece solo porque se ha detectado ROExt."
-    TEXT_DLG_ABOUT_OPENSETUP,       "Sobre RagnarokOnline OpenSetup"
+    TEXT_DLG_ABOUT_OPENSETUP,       "Sobre %s"
     TEXT_DLG_LIST_CP_DEFAULT,       "(por defecto)"
     TEXT_DLG_LIST_CP_UNKNOWN,       "%d  (desconocido)"
     TEXT_DLG_COMMANDS,              "Comandos"
@@ -171,6 +180,8 @@ BEGIN
     TEXT_DLG_ENGINE_LUA,            "LUA"
     TEXT_DLG_CMD_MABLE,             "/mable"
     TEXT_DLG_CMD_ZOOM,              "/zoom"
+    TEXT_DLG_ABOUT_TELEMETRY,       "Telemetry"
+    TEXT_DLG_VIDEOTEST,             "Test settings"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - Cambia las dimensiones de la ventana de juego al tamaño deseado"
     // error messages
@@ -192,6 +203,10 @@ BEGIN
     TEXT_ERROR_IPC_FAILED,          "Ha fallado la comunicación entre procesos."
     TEXT_ERROR_UNKNOWN_ENGINE,      "El motor de ajustes seleccionado no existe (código=0x%08x)."
     TEXT_ERROR_INSANE_ENGINE,       "Se ha observado que el estado de la instalación de Ragnarök Online interfiere en la carga y guardado correcto de ajustes.\n\nMás detalles en el archivo opensetup.log"
+    TEXT_ERROR_TESTGX_FAILED,       "Failed to start graphics test."
     // info/question messages
     TEXT_MSG_RO_ALREADY_RUNNING,    "Running RagnarokOnline client detected, changes to settings made with this application may be overwritten by the client.\n\nDo you want to continue anyway?"
+    TEXT_MSG_TESTGX_INTRO,          "This will test the current graphics settings. Before you continue, please save your work."
+    TEXT_MSG_TESTGX_DESCRIPTION,    "In the following, you should see a graphics window (or full screen) simulation of the RO client. You can close it with the ESC key, or wait for 15 seconds if the computer stops reacting."
+    TEXT_MSG_TESTGX_NOSELECTION,    "Not enough information to run test."
 END
