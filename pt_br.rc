@@ -160,7 +160,7 @@ BEGIN
     TEXT_DLG_FREE_CPU,              "Liberar CPU Quando Inativo"
     TEXT_DLG_ALWAYS_ON_TOP,         "Janela Sempre no Topo"
     TEXT_DLG_LOCK_WINDOW,           "Travar Janela"
-    TEXT_DLG_MINIMIZE_KEY,          "Minimize window with Ctrl+W"
+    TEXT_DLG_MINIMIZE_KEY,          "Minimizar Janela com Ctrl+W"
     TEXT_DLG_CODEPAGE,              "Codificação de caracteres:"
     TEXT_DLG_ROEXT_DETECT_NOTE,     "Nota: Esta página é exibida somente porque ROExt foi detectado."
     TEXT_DLG_ABOUT_OPENSETUP,       "Sobre %s"
