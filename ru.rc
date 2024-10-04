@@ -189,7 +189,7 @@ BEGIN
     TEXT_DLG_ENGINE_LUA,            "Lua"
     TEXT_DLG_CMD_MABLE,             "/mable"
     TEXT_DLG_CMD_ZOOM,              "/zoom"
-    TEXT_DLG_ABOUT_TELEMETRY,       "Телеметрия"
+  //TEXT_DLG_ABOUT_TELEMETRY,       "Телеметрия"
     TEXT_DLG_VIDEOTEST,             "Тестовый настройки"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - изменить размер окна до нужного"

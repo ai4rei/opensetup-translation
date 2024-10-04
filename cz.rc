@@ -190,7 +190,7 @@ BEGIN
     TEXT_DLG_ENGINE_LUA,            "Lua"
     TEXT_DLG_CMD_MABLE,             "/mable"
     TEXT_DLG_CMD_ZOOM,              "/zoom"
-    TEXT_DLG_ABOUT_TELEMETRY,       "Telemetrie"
+  //TEXT_DLG_ABOUT_TELEMETRY,       "Telemetrie"
     TEXT_DLG_VIDEOTEST,             "Test nastavení"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - změň velikost okna na požadovanou velikost"

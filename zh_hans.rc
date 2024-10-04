@@ -188,7 +188,7 @@ BEGIN
     TEXT_DLG_ENGINE_LUA,            "LUA"
     TEXT_DLG_CMD_MABLE,             "/mable"
     TEXT_DLG_CMD_ZOOM,              "/zoom"
-    TEXT_DLG_ABOUT_TELEMETRY,       "Telemetry"
+  //TEXT_DLG_ABOUT_TELEMETRY,       "Telemetry"
     TEXT_DLG_VIDEOTEST,             "Test settings"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - 重设窗口到指定大小"

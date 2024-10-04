@@ -187,7 +187,7 @@ BEGIN
     TEXT_DLG_ENGINE_LUA,            "LUA"
     TEXT_DLG_CMD_MABLE,             "/mable"
     TEXT_DLG_CMD_ZOOM,              "/zoom"
-    TEXT_DLG_ABOUT_TELEMETRY,       "Telemetrie"
+  //TEXT_DLG_ABOUT_TELEMETRY,       "Telemetrie"
     TEXT_DLG_VIDEOTEST,             "Einstellungen testen"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - vergrößere das Fenster auf die gewünschte Größe"
