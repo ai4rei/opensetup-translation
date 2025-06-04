@@ -81,6 +81,8 @@ BEGIN
     IDCHECKBOX_WINDOWONTOP,         "Zajistit, aby okno RO bylo vždy nahoře."
     IDCHECKBOX_WINDOWLOCK,          "Odstranit okraje okna RO a zajistit jeho polohu."
     IDCHECKBOX_MINIMIZEKEY,         "Minimalizovat okno RO pomocí klávesové zkratky Ctrl+W."
+    IDCHECKBOX_DISABLEVSYNC,        "Disable VSync so RO can properly utilize modern GPUs."
+    IDCHECKBOX_DISABLEFADEINOUT,    "Disable fade out and fade in effects on map change or teleport."
     IDCOMBOBOX_CODEPAGE,            "Přepíše kódovou stránku používanou klientem.\n\nPoznámka: Neměň tento parametr, pokud nevíš, co děláš."
     IDDRAGSIZE,                     "Vizuálně vybere rozlišení přetažením okna na požadovanou velikost."
     IDVIDEOTEST,                    "Testuje, zda aktuálně vybraná (případně neuložená) grafická nastavení fungují správně."
@@ -163,6 +165,8 @@ BEGIN
     TEXT_DLG_ALWAYS_ON_TOP,         "Vždy navrchu"
     TEXT_DLG_LOCK_WINDOW,           "Uzamknout okno"
     TEXT_DLG_MINIMIZE_KEY,          "Minimalizovat okno stiskem Ctrl+W"
+    TEXT_DLG_DISABLE_VSYNC,         "Disable v-sync"
+    TEXT_DLG_DISABLE_FADEINOUT,     "Disable fade in/out during teleport"
     TEXT_DLG_CODEPAGE,              "Kódování:"
     TEXT_DLG_ROEXT_DETECT_NOTE,     "Poznámka: Tato stránka se zobrazuje protože byl nalezen ROExt."
     TEXT_DLG_ABOUT_OPENSETUP,       "O aplikaci %s"
@@ -192,6 +196,10 @@ BEGIN
     TEXT_DLG_CMD_ZOOM,              "/zoom"
   //TEXT_DLG_ABOUT_TELEMETRY,       "Telemetrie"
     TEXT_DLG_VIDEOTEST,             "Test nastavení"
+    TEXT_DLG_CMD_MINIMAP,           "/minimap"
+    TEXT_DLG_CMD_MINEFFECT,         "/mineffect"
+    TEXT_DLG_CMD_EMBLEM,            "/emblem"
+    TEXT_DLG_CMD_SHOWSHOP,          "/showshop"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - změň velikost okna na požadovanou velikost"
     // error messages

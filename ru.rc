@@ -80,6 +80,8 @@ BEGIN
     IDCHECKBOX_WINDOWONTOP,         "Сделайте так, чтобы окно RO всегда было на высоте."
     IDCHECKBOX_WINDOWLOCK,          "Снимите ограничители окна RO и зафиксируйте его положение."
     IDCHECKBOX_MINIMIZEKEY,         "Минимизировать окно РО по Ctrl+W."
+    IDCHECKBOX_DISABLEVSYNC,        "Disable VSync so RO can properly utilize modern GPUs."
+    IDCHECKBOX_DISABLEFADEINOUT,    "Disable fade out and fade in effects on map change or teleport."
     IDCOMBOBOX_CODEPAGE,            "Переопределяет кодовую страницу, используемую клиентом.\n\nВнимание: Не изменяйте это, если не знаете, что делаете."
     IDDRAGSIZE,                     "Выбор разрешения осуществляется визуально путем перетаскивания окна до нужного размера."
     IDVIDEOTEST,                    "Проверяет, правильно ли функционируют выбранные в данный момент (возможно, несохраненные) графические настройки."
@@ -162,6 +164,8 @@ BEGIN
     TEXT_DLG_ALWAYS_ON_TOP,         "Поверх остальных окон"
     TEXT_DLG_LOCK_WINDOW,           "Закрепить положение окна"
     TEXT_DLG_MINIMIZE_KEY,          "Minimize window with Ctrl+W"
+    TEXT_DLG_DISABLE_VSYNC,         "Disable v-sync"
+    TEXT_DLG_DISABLE_FADEINOUT,     "Disable fade in/out during teleport"
     TEXT_DLG_CODEPAGE,              "Кодировка:"
     TEXT_DLG_ROEXT_DETECT_NOTE,     "Внимание: Эта вкладка появляется только при обнаружении ROExt."
     TEXT_DLG_ABOUT_OPENSETUP,       "О программе %s"
@@ -191,6 +195,10 @@ BEGIN
     TEXT_DLG_CMD_ZOOM,              "/zoom"
   //TEXT_DLG_ABOUT_TELEMETRY,       "Телеметрия"
     TEXT_DLG_VIDEOTEST,             "Тестовый настройки"
+    TEXT_DLG_CMD_MINIMAP,           "/minimap"
+    TEXT_DLG_CMD_MINEFFECT,         "/mineffect"
+    TEXT_DLG_CMD_EMBLEM,            "/emblem"
+    TEXT_DLG_CMD_SHOWSHOP,          "/showshop"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - изменить размер окна до нужного"
     // error messages

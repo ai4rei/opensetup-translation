@@ -78,6 +78,8 @@ BEGIN
     IDCHECKBOX_WINDOWONTOP,         "Macht das RO-Fenster immer sichtbar (always on top)."
     IDCHECKBOX_WINDOWLOCK,          "Entfernt den Rahmen des RO-Fensters und fixiert seine Position."
     IDCHECKBOX_MINIMIZEKEY,         "RO-Fenster mit Strg+W minimieren."
+    IDCHECKBOX_DISABLEVSYNC,        "Disable VSync so RO can properly utilize modern GPUs."
+    IDCHECKBOX_DISABLEFADEINOUT,    "Disable fade out and fade in effects on map change or teleport."
     IDCOMBOBOX_CODEPAGE,            "Überschreibt die vom Client verwendete Codepage.\n\nHinweis: Änder dies nicht, wenn du nicht weist, was du tust."
     IDDRAGSIZE,                     "Wählt die Auflösung visuell aus, indem ein Fenster auf die gewünschte Größe gezogen wird."
     IDVIDEOTEST,                    "Testet, ob die aktuell ausgewählten (möglicherweise ungespeicherten) Grafikeinstellungen richtig funktionieren oder nicht."
@@ -160,6 +162,8 @@ BEGIN
     TEXT_DLG_ALWAYS_ON_TOP,         "Immer im Vordergrund"
     TEXT_DLG_LOCK_WINDOW,           "Fenster fixieren"
     TEXT_DLG_MINIMIZE_KEY,          "Fenster mit Strg+W minimieren"
+    TEXT_DLG_DISABLE_VSYNC,         "Disable v-sync"
+    TEXT_DLG_DISABLE_FADEINOUT,     "Disable fade in/out during teleport"
     TEXT_DLG_CODEPAGE,              "Zeichensatz:"
     TEXT_DLG_ROEXT_DETECT_NOTE,     "Hinweis: Diese Seite wird angezeigt, weil ROExt gefunden wurde."
     TEXT_DLG_ABOUT_OPENSETUP,       "Über %s"
@@ -189,6 +193,10 @@ BEGIN
     TEXT_DLG_CMD_ZOOM,              "/zoom"
   //TEXT_DLG_ABOUT_TELEMETRY,       "Telemetrie"
     TEXT_DLG_VIDEOTEST,             "Einstellungen testen"
+    TEXT_DLG_CMD_MINIMAP,           "/minimap"
+    TEXT_DLG_CMD_MINEFFECT,         "/mineffect"
+    TEXT_DLG_CMD_EMBLEM,            "/emblem"
+    TEXT_DLG_CMD_SHOWSHOP,          "/showshop"
     // misc messages
     TEXT_MISC_DRAGSIZE_INFO,        "%ldx%ld - vergrößere das Fenster auf die gewünschte Größe"
     // error messages
